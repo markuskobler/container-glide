@@ -11,3 +11,5 @@ RUN \
     tar -xz --strip-components=1 -C /usr/local/bin/ linux-amd64/glide
 
 ENTRYPOINT [ "/usr/local/bin/glide" ]
+WORKDIR /go/src
+VOLUME  /go/src
