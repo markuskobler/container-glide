@@ -16,7 +16,7 @@ dependencies:
 
 test:
   override:
-    - docker run -it markuskobler/glide -v
+    - docker run -it markuskobler/glide -v | grep -qi 0.10.2
 
 deployment:
   production:
