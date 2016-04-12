@@ -8,10 +8,10 @@ dependencies:
     - docker version
   override:
     - docker build -t markuskobler/glide .
-    - docker tag -f markuskobler/glide markuskobler/glide:0.10.1
+    - docker tag -f markuskobler/glide markuskobler/glide:0.10.2
     - docker tag -f markuskobler/glide markuskobler/glide:0.10
     - docker tag -f markuskobler/glide quay.io/markus/glide
-    - docker tag -f markuskobler/glide quay.io/markus/glide:0.10.1
+    - docker tag -f markuskobler/glide quay.io/markus/glide:0.10.2
     - docker tag -f markuskobler/glide quay.io/markus/glide:0.10
 
 test:

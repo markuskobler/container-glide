@@ -1,6 +1,6 @@
 FROM golang:1.6-alpine
 
-ENV VERSION 0.10.1
+ENV VERSION 0.10.2
 
 RUN \
    apk add -U git perl mercurial curl tar && \
